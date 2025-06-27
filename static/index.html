@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Catalogue Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Catalogue Manager</h1>
+
+  <div class="form">
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="description" placeholder="Description" />
+    <button onclick="createCatalogue()">Create</button>
+  </div>
+
+  <h2>All Catalogues</h2>
+  <button onclick="fetchCatalogues()">Refresh</button>
+  <ul id="catalogue-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
