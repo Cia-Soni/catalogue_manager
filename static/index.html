@@ -1,22 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Catalogue Manager</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <title>📚 Catalogue Manager</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Catalogue Manager</h1>
+  <h1>📚 Catalogue Manager</h1>
 
-  <div class="form">
-    <input type="text" id="name" placeholder="Name" />
-    <input type="text" id="description" placeholder="Description" />
+  <section>
+    <h2>Create Catalogue</h2>
+    <input id="name" placeholder="Name" />
+    <input id="description" placeholder="Description" />
+    <input id="start_date" placeholder="Start Date (YYYY-MM-DD)" />
+    <input id="end_date" placeholder="End Date (YYYY-MM-DD)" />
     <button onclick="createCatalogue()">Create</button>
-  </div>
+  </section>
 
-  <h2>All Catalogues</h2>
-  <button onclick="fetchCatalogues()">Refresh</button>
-  <ul id="catalogue-list"></ul>
+  <section>
+    <h2>Update Catalogue</h2>
+    <input id="update_id" placeholder="Catalogue ID to Update" />
+    <input id="update_name" placeholder="New Name" />
+    <input id="update_description" placeholder="New Description" />
+    <input id="update_start_date" placeholder="New Start Date" />
+    <input id="update_end_date" placeholder="New End Date" />
+    <button onclick="updateCatalogue()">Update</button>
+  </section>
+
+  <section>
+    <h2>Delete Catalogue</h2>
+    <input id="delete_id" placeholder="Catalogue ID to Delete" />
+    <button onclick="deleteCatalogue()">Delete</button>
+  </section>
+
+  <section>
+    <h2>Display All Catalogues</h2>
+    <button onclick="getAllCatalogues()">Get All</button>
+    <pre id="result"></pre>
+  </section>
 
   <script src="script.js"></script>
 </body>

@@ -1,57 +1,49 @@
-const API_URL = '/api/catalogues';
+const BASE_URL = "http://127.0.0.1:5000";
 
 async function createCatalogue() {
-  const name = document.getElementById('name').value;
-  const description = document.getElementById('description').value;
-
-  await fetch(API_URL, {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ name, description })
+  const data = {
+    name: document.getElementById("name").value,
+    description: document.getElementById("description").value,
+    start_date: document.getElementById("start_date").value,
+    end_date: document.getElementById("end_date").value
+  };
+  const res = await fetch(`${BASE_URL}/catalogue`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
   });
-
-  document.getElementById('name').value = '';
-  document.getElementById('description').value = '';
-  fetchCatalogues();
+  const json = await res.json();
+  alert(JSON.stringify(json));
 }
 
-async function fetchCatalogues() {
-  const res = await fetch(API_URL);
-  const catalogues = await res.json();
-  const list = document.getElementById('catalogue-list');
-  list.innerHTML = '';
-
-  catalogues.forEach(cat => {
-    const li = document.createElement('li');
-    li.innerHTML = `
-      <b>${cat.name}</b> - ${cat.description}
-      <button onclick="deleteCatalogue(${cat.id})">Delete</button>
-      <button onclick="showUpdate(${cat.id}, '${cat.name}', '${cat.description}')">Update</button>
-    `;
-    list.appendChild(li);
+async function updateCatalogue() {
+  const id = document.getElementById("update_id").value;
+  const data = {
+    name: document.getElementById("update_name").value,
+    description: document.getElementById("update_description").value,
+    start_date: document.getElementById("update_start_date").value,
+    end_date: document.getElementById("update_end_date").value
+  };
+  const res = await fetch(`${BASE_URL}/catalogue/${id}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data)
   });
+  const json = await res.json();
+  alert(JSON.stringify(json));
 }
 
-async function deleteCatalogue(id) {
-  await fetch(`${API_URL}/${id}`, { method: 'DELETE' });
-  fetchCatalogues();
-}
-
-function showUpdate(id, name, description) {
-  const newName = prompt('New Name:', name);
-  const newDesc = prompt('New Description:', description);
-  if (newName && newDesc) {
-    updateCatalogue(id, newName, newDesc);
-  }
-}
-
-async function updateCatalogue(id, name, description) {
-  await fetch(`${API_URL}/${id}`, {
-    method: 'PUT',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({ name, description })
+async function deleteCatalogue() {
+  const id = document.getElementById("delete_id").value;
+  const res = await fetch(`${BASE_URL}/catalogue/${id}`, {
+    method: "DELETE"
   });
-  fetchCatalogues();
+  const json = await res.json();
+  alert(JSON.stringify(json));
 }
 
-fetchCatalogues();
+async function getAllCatalogues() {
+  const res = await fetch(`${BASE_URL}/catalogue`);
+  const json = await res.json();
+  document.getElementById("result").innerText = JSON.stringify(json, null, 2);
+}
