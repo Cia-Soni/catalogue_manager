@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_from_directory # type: ignore
 from service.catalogue_service import CatalogueService
 from exceptions.exceptions import CatalogueNotFoundError, InvalidInputError
 
