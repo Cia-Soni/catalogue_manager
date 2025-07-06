@@ -1,3 +1,4 @@
+
  body {
   font-family: Arial, sans-serif;
   background: #8caedc;
@@ -61,4 +62,49 @@ button:hover {
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  background: #f7f7f7;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  width: 300px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 8px 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+pre {
+  background: #1c1f0f;
+  color: #f8f8f2;
+  padding: 1rem;
+  overflow-x: auto;
+
 }

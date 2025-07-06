@@ -328,3 +328,19 @@
 2025-07-06 16:56:31,739 INFO:  * Restarting with stat
 2025-07-06 16:56:32,204 WARNING:  * Debugger is active!
 2025-07-06 16:56:32,216 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 17:20:34,911 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 17:20:34,912 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 17:20:34,914 INFO:  * Restarting with stat
+2025-07-06 17:20:35,248 WARNING:  * Debugger is active!
+2025-07-06 17:20:35,253 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 17:21:22,661 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 17:21:22,661 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 17:21:22,663 INFO:  * Restarting with stat
+2025-07-06 17:21:23,022 WARNING:  * Debugger is active!
+2025-07-06 17:21:23,024 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 17:22:33,448 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\service\\catalogue_service.py', reloading
+2025-07-06 17:22:33,508 INFO:  * Restarting with stat
+2025-07-06 17:22:33,867 WARNING:  * Debugger is active!
+2025-07-06 17:22:33,869 INFO:  * Debugger PIN: 965-547-729
