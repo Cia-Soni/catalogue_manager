@@ -1,0 +1,318 @@
+2025-07-04 16:59:54,504 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 16:59:54,504 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 16:59:54,506 INFO:  * Restarting with stat
+2025-07-04 16:59:54,917 WARNING:  * Debugger is active!
+2025-07-04 16:59:54,927 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:01:32,394 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\test_app.py', reloading
+2025-07-04 17:01:32,797 INFO:  * Restarting with stat
+2025-07-04 17:01:33,715 WARNING:  * Debugger is active!
+2025-07-04 17:01:33,726 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:04:42,226 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:04:42,227 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:04:42,230 INFO:  * Restarting with stat
+2025-07-04 17:04:42,616 WARNING:  * Debugger is active!
+2025-07-04 17:04:42,624 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:06:33,847 INFO: 127.0.0.1 - - [04/Jul/2025 17:06:33] "GET / HTTP/1.1" 200 -
+2025-07-04 17:06:34,026 INFO: 127.0.0.1 - - [04/Jul/2025 17:06:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-04 17:06:48,661 INFO: User 'admin' logged in successfully.
+2025-07-04 17:06:48,674 INFO: 127.0.0.1 - - [04/Jul/2025 17:06:48] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-04 17:06:48,742 INFO: 127.0.0.1 - - [04/Jul/2025 17:06:48] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-04 17:06:48,804 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-04 17:06:48,805 INFO: 127.0.0.1 - - [04/Jul/2025 17:06:48] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-04 17:07:04,367 INFO: Fetched catalogues page 1 with 100 per page.
+2025-07-04 17:07:04,368 INFO: 127.0.0.1 - - [04/Jul/2025 17:07:04] "GET /catalogues?page=1&per_page=100 HTTP/1.1" 200 -
+2025-07-04 17:07:05,632 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-04 17:07:05,633 INFO: 127.0.0.1 - - [04/Jul/2025 17:07:05] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-04 17:07:07,005 INFO: Fetched catalogues page 2 with 5 per page.
+2025-07-04 17:07:07,005 INFO: 127.0.0.1 - - [04/Jul/2025 17:07:07] "GET /catalogues?page=2&per_page=5 HTTP/1.1" 200 -
+2025-07-04 17:08:04,096 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:08:04,096 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:08:04,099 INFO:  * Restarting with stat
+2025-07-04 17:08:04,756 WARNING:  * Debugger is active!
+2025-07-04 17:08:04,762 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:09:12,932 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:09:12,933 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:09:12,936 INFO:  * Restarting with stat
+2025-07-04 17:09:13,459 WARNING:  * Debugger is active!
+2025-07-04 17:09:13,462 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:11:29,623 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:11:29,624 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:12:04,527 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:12:04,527 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:12:04,530 INFO:  * Restarting with stat
+2025-07-04 17:12:05,178 WARNING:  * Debugger is active!
+2025-07-04 17:12:05,188 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:14:28,638 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:14:28,639 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:14:28,643 INFO:  * Restarting with stat
+2025-07-04 17:14:29,190 WARNING:  * Debugger is active!
+2025-07-04 17:14:29,199 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:15:09,366 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:09] "GET / HTTP/1.1" 200 -
+2025-07-04 17:15:13,928 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:13] "[32mGET /apidocs HTTP/1.1[0m" 308 -
+2025-07-04 17:15:14,089 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:14] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-04 17:15:14,900 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:14] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2025-07-04 17:15:15,119 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:15] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2025-07-04 17:15:15,156 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:15] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2025-07-04 17:15:15,303 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:15] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2025-07-04 17:15:15,553 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:15] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-04 17:15:15,659 INFO: 127.0.0.1 - - [04/Jul/2025 17:15:15] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2025-07-04 17:18:22,301 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-04 17:18:22,790 INFO:  * Restarting with stat
+2025-07-04 17:18:28,354 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:18:28,355 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:18:28,359 INFO:  * Restarting with stat
+2025-07-04 17:18:28,955 WARNING:  * Debugger is active!
+2025-07-04 17:18:28,967 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:18:36,107 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-04 17:18:36,216 INFO:  * Restarting with stat
+2025-07-04 17:18:37,386 WARNING:  * Debugger is active!
+2025-07-04 17:18:37,394 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:19:05,990 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:19:05,991 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:21:21,776 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:21:21,777 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:21:21,780 INFO:  * Restarting with stat
+2025-07-04 17:21:22,279 WARNING:  * Debugger is active!
+2025-07-04 17:21:22,289 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:21:29,362 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-04 17:21:29,483 INFO:  * Restarting with stat
+2025-07-04 17:21:30,287 WARNING:  * Debugger is active!
+2025-07-04 17:21:30,291 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:21:32,325 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-04 17:21:32,434 INFO:  * Restarting with stat
+2025-07-04 17:22:19,399 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:22:19,401 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:22:19,404 INFO:  * Restarting with stat
+2025-07-04 17:24:44,091 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.243:5000
+2025-07-04 17:24:44,093 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:24:44,096 INFO:  * Restarting with stat
+2025-07-04 17:24:44,610 WARNING:  * Debugger is active!
+2025-07-04 17:24:44,619 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:30:29,148 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.243:5000
+2025-07-04 17:30:29,150 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:30:29,153 INFO:  * Restarting with stat
+2025-07-04 17:30:29,661 WARNING:  * Debugger is active!
+2025-07-04 17:30:29,667 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:30:44,080 INFO: 127.0.0.1 - - [04/Jul/2025 17:30:44] "GET / HTTP/1.1" 200 -
+2025-07-04 17:31:00,324 INFO: User 'admin' logged in successfully.
+2025-07-04 17:31:00,329 INFO: 127.0.0.1 - - [04/Jul/2025 17:31:00] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-04 17:31:00,354 INFO: 127.0.0.1 - - [04/Jul/2025 17:31:00] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-04 17:31:12,708 INFO: 127.0.0.1 - - [04/Jul/2025 17:31:12] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-04 17:31:13,403 INFO: 127.0.0.1 - - [04/Jul/2025 17:31:13] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2025-07-04 17:33:01,902 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.243:5000
+2025-07-04 17:33:01,903 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:33:01,906 INFO:  * Restarting with stat
+2025-07-04 17:33:02,572 WARNING:  * Debugger is active!
+2025-07-04 17:33:02,585 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:33:09,657 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-04 17:33:09,742 INFO:  * Restarting with stat
+2025-07-04 17:33:16,819 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-04 17:33:16,820 INFO: [33mPress CTRL+C to quit[0m
+2025-07-04 17:33:16,822 INFO:  * Restarting with stat
+2025-07-04 17:33:17,552 WARNING:  * Debugger is active!
+2025-07-04 17:33:17,556 INFO:  * Debugger PIN: 965-547-729
+2025-07-04 17:33:55,650 INFO: 127.0.0.1 - - [04/Jul/2025 17:33:55] "GET / HTTP/1.1" 200 -
+2025-07-04 17:34:00,283 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-04 17:34:00,720 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:00,723 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:00,724 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:00,724 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-04 17:34:00,951 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:00] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-04 17:34:20,293 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:20] "GET / HTTP/1.1" 200 -
+2025-07-04 17:34:27,916 INFO: User 'admin' logged in successfully.
+2025-07-04 17:34:27,926 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:27] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-04 17:34:27,959 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:27] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-04 17:34:28,029 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-04 17:34:28,031 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:28] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-04 17:34:46,716 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-04 17:34:46,758 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-04 17:34:46,761 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:46,762 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:46,765 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-07-04 17:34:46,980 INFO: 127.0.0.1 - - [04/Jul/2025 17:34:46] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-04 17:35:16,297 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-04 17:35:16,345 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-04 17:35:16,346 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-04 17:35:16,346 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-04 17:35:16,347 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-07-04 17:35:16,564 INFO: 127.0.0.1 - - [04/Jul/2025 17:35:16] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-04 17:36:02,055 INFO: 127.0.0.1 - - [04/Jul/2025 17:36:02] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-04 17:36:02,104 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-04 17:36:02,106 INFO: 127.0.0.1 - - [04/Jul/2025 17:36:02] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-04 17:36:12,679 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-04 17:36:12,680 INFO: 127.0.0.1 - - [04/Jul/2025 17:36:12] "GET /catalogues HTTP/1.1" 200 -
+2025-07-04 17:36:25,139 INFO: 127.0.0.1 - - [04/Jul/2025 17:36:25] "GET / HTTP/1.1" 200 -
+2025-07-04 18:14:39,206 INFO: 127.0.0.1 - - [04/Jul/2025 18:14:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 10:06:37,697 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 10:06:37,699 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 10:06:37,702 INFO:  * Restarting with stat
+2025-07-06 10:06:38,425 WARNING:  * Debugger is active!
+2025-07-06 10:06:38,437 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:09:44,942 INFO: 127.0.0.1 - - [06/Jul/2025 10:09:44] "GET / HTTP/1.1" 200 -
+2025-07-06 10:09:45,277 INFO: 127.0.0.1 - - [06/Jul/2025 10:09:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 10:21:58,708 INFO: 127.0.0.1 - - [06/Jul/2025 10:21:58] "GET / HTTP/1.1" 200 -
+2025-07-06 10:22:12,397 INFO: User 'admin' logged in successfully.
+2025-07-06 10:22:12,425 INFO: 127.0.0.1 - - [06/Jul/2025 10:22:12] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 10:22:12,806 INFO: 127.0.0.1 - - [06/Jul/2025 10:22:12] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 10:22:12,880 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 10:22:12,884 INFO: 127.0.0.1 - - [06/Jul/2025 10:22:12] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 10:30:21,384 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 10:30:21,834 INFO:  * Restarting with stat
+2025-07-06 10:31:03,560 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 10:31:03,562 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 10:31:03,564 INFO:  * Restarting with stat
+2025-07-06 10:31:04,249 WARNING:  * Debugger is active!
+2025-07-06 10:31:04,260 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:34:58,723 WARNING:  * Debugger is active!
+2025-07-06 10:34:58,739 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:35:04,003 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 10:35:04,004 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 10:35:04,005 INFO:  * Restarting with stat
+2025-07-06 10:35:04,908 WARNING:  * Debugger is active!
+2025-07-06 10:35:04,924 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:36:23,586 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 10:36:23,986 INFO:  * Restarting with stat
+2025-07-06 10:36:33,035 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 10:36:33,036 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 10:36:33,039 INFO:  * Restarting with stat
+2025-07-06 10:36:33,869 WARNING:  * Debugger is active!
+2025-07-06 10:36:33,910 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:37:01,130 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 10:37:01,351 INFO:  * Restarting with stat
+2025-07-06 10:37:02,475 WARNING:  * Debugger is active!
+2025-07-06 10:37:02,482 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:37:06,372 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 10:37:06,373 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 10:37:06,375 INFO:  * Restarting with stat
+2025-07-06 10:37:07,085 WARNING:  * Debugger is active!
+2025-07-06 10:37:07,123 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 10:37:17,948 INFO: 127.0.0.1 - - [06/Jul/2025 10:37:17] "GET / HTTP/1.1" 200 -
+2025-07-06 10:37:26,296 INFO: User 'admin' logged in successfully.
+2025-07-06 10:37:26,304 INFO: 127.0.0.1 - - [06/Jul/2025 10:37:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 10:37:26,330 INFO: 127.0.0.1 - - [06/Jul/2025 10:37:26] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 10:37:34,126 INFO: User 'admin' logged out.
+2025-07-06 10:37:34,128 INFO: 127.0.0.1 - - [06/Jul/2025 10:37:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-06 10:37:34,139 INFO: 127.0.0.1 - - [06/Jul/2025 10:37:34] "GET / HTTP/1.1" 200 -
+2025-07-06 11:54:26,254 INFO: 127.0.0.1 - - [06/Jul/2025 11:54:26] "GET / HTTP/1.1" 200 -
+2025-07-06 11:54:39,901 INFO: 127.0.0.1 - - [06/Jul/2025 11:54:39] "GET / HTTP/1.1" 200 -
+2025-07-06 11:54:45,585 INFO: User 'admin' logged in successfully.
+2025-07-06 11:54:45,597 INFO: 127.0.0.1 - - [06/Jul/2025 11:54:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 11:54:45,612 INFO: 127.0.0.1 - - [06/Jul/2025 11:54:45] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 11:56:14,169 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 11:56:14,597 INFO:  * Restarting with stat
+2025-07-06 11:56:23,762 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 11:56:23,763 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 11:56:23,765 INFO:  * Restarting with stat
+2025-07-06 11:56:24,215 WARNING:  * Debugger is active!
+2025-07-06 11:56:24,228 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 11:58:05,920 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 11:58:05,921 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 11:58:05,923 INFO:  * Restarting with stat
+2025-07-06 11:58:06,333 WARNING:  * Debugger is active!
+2025-07-06 11:58:06,353 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 11:58:17,427 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 11:58:17,522 INFO:  * Restarting with stat
+2025-07-06 11:58:18,012 WARNING:  * Debugger is active!
+2025-07-06 11:58:18,014 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 11:59:17,805 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:17] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 11:59:26,521 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 11:59:26,523 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:26] "GET /catalogues HTTP/1.1" 200 -
+2025-07-06 11:59:35,965 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:35] "GET / HTTP/1.1" 200 -
+2025-07-06 11:59:42,325 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:42] "GET / HTTP/1.1" 200 -
+2025-07-06 11:59:47,512 INFO: User 'admin' logged in successfully.
+2025-07-06 11:59:47,515 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:47] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 11:59:47,522 INFO: 127.0.0.1 - - [06/Jul/2025 11:59:47] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 12:06:40,283 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:40] "GET /apidocs/ HTTP/1.1" 200 -
+2025-07-06 12:06:40,712 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:40] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2025-07-06 12:06:40,800 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:40] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2025-07-06 12:06:40,873 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:40] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2025-07-06 12:06:41,048 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:41] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2025-07-06 12:06:41,306 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:41] "GET /apispec_1.json HTTP/1.1" 200 -
+2025-07-06 12:06:58,249 INFO: 127.0.0.1 - - [06/Jul/2025 12:06:58] "GET / HTTP/1.1" 200 -
+2025-07-06 12:07:48,050 INFO: 127.0.0.1 - - [06/Jul/2025 12:07:48] "GET / HTTP/1.1" 200 -
+2025-07-06 12:07:56,980 INFO: User 'admin' logged in successfully.
+2025-07-06 12:07:56,986 INFO: 127.0.0.1 - - [06/Jul/2025 12:07:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 12:07:56,994 INFO: 127.0.0.1 - - [06/Jul/2025 12:07:56] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 12:09:51,914 INFO:  * Detected change in 'c:\\Users\\CIA ANN SONI\\OneDrive\\Desktop\\TEST.PY\\app.py', reloading
+2025-07-06 12:09:52,128 INFO:  * Restarting with stat
+2025-07-06 12:09:53,180 WARNING:  * Debugger is active!
+2025-07-06 12:09:53,251 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 12:17:16,283 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 12:17:16,284 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 12:17:16,286 INFO:  * Restarting with stat
+2025-07-06 12:17:16,667 WARNING:  * Debugger is active!
+2025-07-06 12:17:16,675 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 12:21:57,342 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 12:21:57,342 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 12:21:57,345 INFO:  * Restarting with stat
+2025-07-06 12:21:57,730 WARNING:  * Debugger is active!
+2025-07-06 12:21:57,739 INFO:  * Debugger PIN: 965-547-729
+2025-07-06 12:22:19,485 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 12:22:19,486 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 12:22:19,489 INFO:  * Restarting with stat
+2025-07-06 12:22:20,924 WARNING:  * Debugger is active!
+2025-07-06 12:22:20,929 INFO:  * Debugger PIN: 231-719-412
+2025-07-06 12:23:11,571 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:11] "[32mGET /catalogues-page HTTP/1.1[0m" 302 -
+2025-07-06 12:23:11,674 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:11] "GET / HTTP/1.1" 200 -
+2025-07-06 12:23:11,967 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-06 12:23:19,838 INFO: User 'admin' logged in successfully.
+2025-07-06 12:23:19,848 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:19] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 12:23:20,161 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:20] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 12:23:20,207 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 12:23:20,208 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:20] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:23:31,340 INFO: Fetched catalogues page 1 with 100 per page.
+2025-07-06 12:23:31,341 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:31] "GET /catalogues?page=1&per_page=100 HTTP/1.1" 200 -
+2025-07-06 12:23:36,546 INFO: Fetched catalogues page 2 with 5 per page.
+2025-07-06 12:23:36,547 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:36] "GET /catalogues?page=2&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:23:38,247 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 12:23:38,248 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:38] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:23:40,054 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 12:23:40,055 INFO: 127.0.0.1 - - [06/Jul/2025 12:23:40] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:24:19,298 INFO: User 'admin' logged out.
+2025-07-06 12:24:19,302 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-07-06 12:24:19,448 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:19] "GET / HTTP/1.1" 200 -
+2025-07-06 12:24:32,867 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:32] "GET / HTTP/1.1" 200 -
+2025-07-06 12:24:40,583 INFO: User 'admin' logged in successfully.
+2025-07-06 12:24:40,587 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-07-06 12:24:40,597 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:40] "GET /catalogues-page HTTP/1.1" 200 -
+2025-07-06 12:24:40,842 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 12:24:40,843 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:40] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:24:45,905 INFO: Fetched catalogues page 1 with 5 per page.
+2025-07-06 12:24:45,907 INFO: 127.0.0.1 - - [06/Jul/2025 12:24:45] "GET /catalogues?page=1&per_page=5 HTTP/1.1" 200 -
+2025-07-06 12:26:58,047 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-06 12:26:58,416 INFO: [33mPress CTRL+C to quit[0m
+2025-07-06 12:26:58,418 INFO:  * Restarting with stat
+2025-07-06 12:26:58,811 WARNING:  * Debugger is active!
+2025-07-06 12:26:58,821 INFO:  * Debugger PIN: 965-547-729

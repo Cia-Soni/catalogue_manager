@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catalogue Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <button onclick="loadCatalogues()">Get All</button>
+    <button onclick="showForm()">Create New</button>
+    <button onclick="exitApp()">Exit</button>
+  </nav>
+
+  <main id="content">
+    <h2>Catalogue Manager</h2>
+
+    <!-- Create Form -->
+    <div id="formContainer">
+      <form id="catalogueForm">
+        <input type="text" id="name" placeholder="Name" required><br><br>
+        <textarea id="description" placeholder="Description"></textarea><br><br>
+        <input type="date" id="effective_from" placeholder="Effective From"><br><br>
+        <input type="date" id="effective_to" placeholder="Effective To"><br><br>
+        <select id="status">
+          <option value="active">Active</option>
+          <option value="inactive">Inactive</option>
+        </select><br><br>
+        <button type="submit">Create Catalogue</button>
+      </form>
+    </div>
+
+    <!-- Catalogue List -->
+    <div id="cataloguesList"></div>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('catalogueForm');
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const data = {
+            name: document.getElementById('name').value,
+            description: document.getElementById('description').value,
+            effective_from: document.getElementById('effective_from').value,
+            effective_to: document.getElementById('effective_to').value,
+            status: document.getElementById('status').value
+          };
+          await fetch('/catalogues', {
+            method: 'POST',
+            credentials: 'include',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+          });
+          form.reset();
+          loadCatalogues();
+        });
+      }
+
+      loadCatalogues();
+    });
+
+    async function loadCatalogues() {
+      const res = await fetch('/catalogues', { credentials: 'include' });
+      const result = await res.json();
+      const list = document.getElementById('cataloguesList');
+      list.innerHTML = '';
+      if (result.data && result.data.items) {
+        result.data.items.forEach(cat => {
+          const div = document.createElement('div');
+          div.className = 'catalogue-card';
+          div.innerHTML = `
+            <strong>ID:</strong> ${cat.id} <br>
+            <input type="text" id="name-${cat.id}" value="${cat.name}">
+            <textarea id="desc-${cat.id}">${cat.description}</textarea>
+            <input type="date" id="from-${cat.id}" value="${cat.effective_from || ''}">
+            <input type="date" id="to-${cat.id}" value="${cat.effective_to || ''}">
+            <select id="status-${cat.id}">
+              <option value="active" ${cat.status === 'active' ? 'selected' : ''}>Active</option>
+              <option value="inactive" ${cat.status === 'inactive' ? 'selected' : ''}>Inactive</option>
+            </select><br>
+            <button onclick="updateCatalogue(${cat.id})">Update</button>
+            <button onclick="deleteCatalogue(${cat.id})">Delete</button>
+            <hr>
+          `;
+          list.appendChild(div);
+        });
+      } else {
+        list.innerHTML = '<p>No catalogues found.</p>';
+      }
+    }
+
+    async function deleteCatalogue(id) {
+      await fetch(`/catalogues/${id}`, {
+        method: 'DELETE',
+        credentials: 'include'
+      });
+      loadCatalogues();
+    }
+
+    async function updateCatalogue(id) {
+      const data = {
+        name: document.getElementById(`name-${id}`).value,
+        description: document.getElementById(`desc-${id}`).value,
+        effective_from: document.getElementById(`from-${id}`).value,
+        effective_to: document.getElementById(`to-${id}`).value,
+        status: document.getElementById(`status-${id}`).value
+      };
+      await fetch(`/catalogues/${id}`, {
+        method: 'PUT',
+        credentials: 'include',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      alert('Updated!');
+      loadCatalogues();
+    }
+
+    function showForm() {
+      document.getElementById('formContainer').style.display = 'block';
+    }
+
+    function exitApp() {
+      document.getElementById('cataloguesList').innerHTML = '';
+      document.getElementById('formContainer').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>

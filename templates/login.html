@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <style>
+    body {
+      background: #f5f0ff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background: #fff;
+      padding: 50px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 350px;
+    }
+    .login-icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+    }
+    .input-group {
+      position: relative;
+      margin: 15px 0;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 15px 20px 15px 50px;
+      font-size: 18px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .input-group::before {
+      content: attr(data-icon);
+      position: absolute;
+      left: 15px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+    }
+    button {
+      background: #6a5acd;
+      color: #fff;
+      padding: 15px 40px;
+      border: none;
+      border-radius: 8px;
+      font-size: 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #5a4db2;
+    }
+    .error {
+      color: red;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <div class="login-icon">🔐</div>
+    <h2>Sign In</h2>
+    <form method="POST">
+      <div class="input-group" data-icon="👤">
+        <input type="text" name="username" placeholder="Username" required>
+      </div>
+      <div class="input-group" data-icon="🔑">
+        <input type="password" name="password" placeholder="Password" required>
+      </div>
+      <button type="submit">➡️ Login</button>
+    </form>
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+  </div>
+</body>
+</html>
